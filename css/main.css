@@ -1,7 +1,9 @@
+/*Le damos la fuente a la página web*/
 body {
   font-family: sans-serif;
 }
 
+/*Le quitamos el estilo predeterminado por el navegador*/
 nav {
   /*outline: 1px solid yellow;*/
   list-style: none;
@@ -23,13 +25,15 @@ li {
   text-align: center;
 }
 
+
 a {
   /*outline: 1px solid green;*/
-  text-decoration: none;
+  text-decoration: none; /*quitamos subrayado*/
   color:white;
   display: block;
 }
 
+/*le damos estilo a nuestro enlaces en estado hover*/
 a:hover {
   background: #f9a91a;
   color: #000;
